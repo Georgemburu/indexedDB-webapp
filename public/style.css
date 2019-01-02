@@ -1,0 +1,10 @@
+body {
+    width: 80%;
+    background-color: antiquewhite;
+    text-align: center;
+    
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

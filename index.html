@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/style.css">
+</head>
+<body>
+    <h1>IndexedDB Application:</h1>
+<main>
+    <form id="addForm">
+        <span id="msgOut"></span><br>
+        <label>Id:</label>
+        <input type="text" id="id"><br><br>
+        <label>Username:</label>
+        <input type="text" id="username"><br><br>
+        <label>Password:</label>
+        <input type="text" id="pwd"><br><br>
+        <input type="submit" value="save" id="save-btn">
+    </form>
+    
+
+    <form id="search form">
+        <label>Search by id:</label><br>
+        <input type="text" id="searchInput"><br>
+        <input type="submit" value="get User info" id="get-btn"> <br><br>
+        <ul id="root">
+
+        </ul>
+    </form>
+    
+</main>
+    <footer>By Speet101</footer>
+    <script src="includes/db.js"></script>
+    <script src="public/test.js"></script>
+</body>
+</html>
